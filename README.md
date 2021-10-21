@@ -5,5 +5,6 @@ Curso "Programador Front End" Senai Sorocaba/Sp
           - Git Project Manager;
           -GitHub Pull R....;
           - gpm.
-2 > no VS Code, clonar repositório, "instalar git se nescessário", autorizar no GitHub.          
+2 > no VS Code, clonar repositório, "instalar git se nescessário", autorizar no GitHub. 
+3 > configurar o e-mail e usúario no git pelo terminal do VS Code.         
 
