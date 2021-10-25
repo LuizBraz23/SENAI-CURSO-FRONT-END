@@ -1,0 +1,19 @@
+# UC09- S2 - Atividade Online 1
+
+Desenvolvimento de site, para layout de desktop, aplicando a linguagem HTML5.
+
+Após especificar os requisitos a serem atendidos para o projeto de um site de uma loja de eletrônicos voltado ao universo gamer, e construir o protótipo de sua interface, está na hora de iniciar o desenvolvimento prático de seu Front-End.
+
+Então, mãos à obra!
+
+Crie a página index (home), contendo menu, banner, destaque, novidades, galeria e rodapé para layout de desktop, aplicando a linguagem HTML5, e mais 4 páginas, no mínimo, vinculadas à página index.
+
+Para isso, estude o material digital (desafio 1) para aplicar a linguagem HTML na construção de páginas web e abuse da criatividade para criar o seu site.
+
+Lembre-se de que podemos criar um documento HTML em qualquer programa de edição de texto, como o bloco de notas, por exemplo. No entanto, sugerimos a ferramenta para implementação de código Visual Studio Code, que otimiza esse trabalho.
+
+Não se esqueça de acessar o fórum de dúvidas, sempre que tiver algum questionamento.
+
+Após concluir o seu trabalho, salve o arquivo na plataforma github e publique aqui o link para que o tutor possa avaliar sua atividade.
+
+Paleta de Cores: #1015c3   #106fc3  #10c3bd  #6310c3  #c3ba15
