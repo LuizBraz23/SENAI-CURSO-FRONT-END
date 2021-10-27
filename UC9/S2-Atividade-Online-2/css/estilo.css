@@ -1,0 +1,251 @@
+/*..RESETAR AS CONFIGURAÇÕES DO BODY..*/
+*{
+    margin: 0;
+    padding: 0;   
+    list-style: none; 
+    text-decoration: none;
+    box-sizing: border-box;    
+}
+header{
+    position: fixed;
+    top: 0px;
+}
+body{
+    background-color: #030666;
+}
+
+
+/*..INÍCIO DO CABEÇALHO..*/
+.header{
+    display: flex;/*..deixar os itens lado a lado..*/
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: space-between;/*..dar espaço entre os itens..*/
+    align-items: center;/*..alinhar os itens..*/
+    margin: 10px;
+    z-index: 1;/*..traz o cabeçalho para a frente..*/
+    
+    
+}
+/*..logo..*/
+#logo{
+    width: 200px;/*..reduzir o tamanho do logo*/
+}
+/*..Barra de pesquisa..*/
+.pesquisa{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 5px;       
+}
+#pesquisa-button{
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+#img-lupa{
+    width: inherit;
+}
+/*..Menu..*/
+.menu-suspenso > ul{    
+    display: flex;      
+    background: none;
+    margin-right: 30px;
+}
+.menu-suspenso >  ul li{
+    font-family: Arial, Helvetica, sans-serif;    
+    padding: 5px; 
+    margin-left: 10px;    
+}
+.menu-suspenso > ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+/*..FIM DO CABEÇALHO..*/
+
+
+/*..INÍCIO DO RODAPÉ..*/
+footer{   
+    background: rgba(0, 0, 0, 0.8); 
+    position: relative;      /*..por rodapé no final da página..*/
+    bottom: 0;
+}
+.footer{    
+    width: 100%;      
+    margin: 10px;
+    display: flex;    
+    justify-content: space-between;        
+}
+.footer > div ul li{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: white;
+    text-align: center;
+}
+.footer > div h2{
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+}
+.logo-rodape > img{
+    margin-top: 30px;
+}
+/*..Responsividade..*/
+.footer > div{
+    flex: 1 1 100px;
+    max-width: 100%;
+    display: block;
+    margin: 10px;
+}
+/*..FIM DO RODAPÉ..*/
+
+/*..INÍCIO DO CARROCEL..*/
+#carrosel{    
+    width: 80%;
+    margin: 120px auto 20px auto;
+    position: relative;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);/*..sombra..*/
+}
+/*..FIM DO CARROCEL..*/
+
+/*..INÍCIO DA NOVIDADES..*/
+
+.novidades div h2{
+    text-align: center;
+    color: white;
+    font-size: 2.2em;
+    padding: 5%;
+}
+.novidades .container .row{
+    justify-content: space-between;
+}
+.novidades .container .col{  
+    width: 25%;       
+    margin: 20px;
+}
+.novidades .container .col img{
+    width: 100%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);/*..sombra..*/
+}
+ 
+/*..FIM DA NOVIDADES..*/
+
+/*..INÍCIO DA GALERIA..*/
+.galeria h2{
+    text-align: center;
+    color: white;
+    font-size: 2.2em;
+    padding: 5%;
+}
+.galeria .container .row{
+    justify-content: space-between;
+}
+.galeria .container .col{  
+    width: 25%;       
+    margin: 20px;
+}
+.galeria .container .col img{
+    width: 100%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);/*..sombra..*/
+}
+/*..FIM DA GALERIA..*/
+
+/*..INICIO SOBRE..*/
+.banner-loja{
+    width: 45%;
+    margin: 120px auto 20px auto;
+    position: relative;    
+}
+.banner-loja img{
+    width: 100%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);/*..sombra..*/
+}
+.texto > h2, p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+/*..FIM SOBRE..*/
+
+/*..INICIO PRODUTOS..*/
+#produtos{
+    display: flex;
+    margin: 120px 5% 50px auto;
+}
+/*..FIM PRODUTOS..*/
+
+/*..INICIO FORMULÁRIO..*/
+.txt{
+    text-align: center;
+    color: white;
+}
+#login{
+    margin: 120px auto 20px auto; 
+    padding: 5%;    
+}
+#login > .row{
+    display: flex;
+    margin-left: 40%;    
+}
+#login> div> label{
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+}
+#login> div> .entrada{
+    padding: 10px;    
+}
+.entrada> input{
+    width: 200px;
+    height: 25px;        
+}
+
+#cadastro{
+    margin: 120px auto 20px auto;
+}
+#cadastro > .row{
+    display: block; 
+    margin-left: 40%;  
+}
+#cadastro> form> div> label{
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+}
+#cadastro> form> .col-12, .col-md-2, .col-md-4, .col-md-6{
+    padding: 10px;    
+}
+#cadastro> form> div> .form-control, .form-select, .btn{
+    width: 200px;
+    height: 25px;
+}
+/*..FIM FORMULÁRIO..*/
+
+/*..INÍCIO PÁGINA CONTATO..*/
+
+.mapa> figure> img{
+    display: block;
+    margin: 120px auto 20px auto;    
+}
+.contatos{
+    display: block;
+    margin: 120px auto 20px auto; 
+}
+.contatos> h2{
+    color: white;
+    text-align: center;
+    margin: 30px auto;
+}
+.contatos> p{
+    margin: 10px 5px 10px 5px;
+    font-size: 1.5em;
+}
+/*..INÍCIO PÁGINA CONTATO..*/
+
+/*..ICONES..*/
+.icone{
+    width: 25px;
+}
