@@ -34,17 +34,18 @@ body{
 .section-banner-home .container-fluid{   
     display: flex;      
     width: 100%;
-    height: 500px;
+    height: 600px;
     padding: 50px;
     margin: 30px auto;
     background-color: #005caa;
     
 }
 .section-banner-home img {
-    height: 400px;       
+    height: 500px;       
 }
 .section-banner-home .texto-banner {    
     margin-top: 30px;
+    margin-left: 30px;
     font-size: 22px;
 }
 .section-banner-home .texto-banner h1 {    
