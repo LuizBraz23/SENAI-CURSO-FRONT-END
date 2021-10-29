@@ -1,6 +1,7 @@
 body{
     max-width: 1600px;
     margin: 0 auto;
+    background-color: whitesmoke;
 }
 .memu_top {
     width: 100%;
@@ -29,18 +30,18 @@ body{
     padding: 10px 12px;
 }
 
-
+/*Banner*/
 .section-banner-home .container-fluid{   
-    display: flex;  
-    
+    display: flex;      
     width: 100%;
     height: 500px;
     padding: 50px;
-    margin: 30px;
+    margin: 30px auto;
     background-color: #005caa;
+    
 }
 .section-banner-home img {
-    height: 400px;
+    height: 400px;       
 }
 .section-banner-home .texto-banner {    
     margin-top: 30px;
@@ -146,7 +147,7 @@ body{
 }
 .galeria .gallery{    
     /*margin: 10px auto 10px;*/
-    margin: 14px auto 50px;
+    margin: 5px auto 10px;
 
 }
 .img-fluid{
@@ -182,16 +183,17 @@ body{
 }
 
 /*CSS Formlário de Contato*/
-
 .contact{
     padding: 4%;
     height: 400px;
 }
-.col-md-3{
-    background: #ff9b00;
+.col-md-3{    
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
+}
+#form-background{
+    background: #ff9b00;
 }
 .contact-info{
     margin-top:10%;
