@@ -227,3 +227,10 @@ body{
 .destaque{
     margin-top: 150px;
 }
+
+/*Inicio Aula 03-11-2021*/
+/*carrossel da página index*/
+.carrossel-1{
+    width: 90%;
+    margin: 50px auto;
+}
