@@ -1,0 +1,237 @@
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+.memu_top {
+    width: 100%;
+    height: 80px;
+}
+.menu_top  img {    
+    float: left;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.menu_top .menu .linkMenu {
+    text-decoration: none;
+    margin: 30px 8px 0px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    color: black;
+    left: 50%;
+    top: 30px;
+}
+.menu_top .menu .login {
+    background-color: aqua;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+/*Banner*/
+.section-banner-home .container-fluid{   
+    display: flex;      
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    margin: 30px auto;
+    background-color: #082373;
+    
+}
+.section-banner-home img {
+    height: 500px;       
+}
+.section-banner-home .texto-banner {    
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 22px;
+}
+.section-banner-home .texto-banner h1 {    
+    font-size: 30px;
+    width: 60%;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: white;
+}
+.section-banner-home .texto-banner p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+.section-banner-home .texto-banner a {
+    color: black;
+    text-decoration: none;
+    background: #fff;
+    padding: 4px 14px;
+    font-size: 15px;
+}
+
+/*.. aula dia 13 de outubro..*/
+
+/*...... CSS destaque .......*/
+
+/*desencavalar com o formulário*/
+.destaque{
+    margin-top: 400px;
+}
+
+.destaque h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+
+.destaque p{
+    width: 77%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px auto;
+}
+
+.destaque figcaption{
+    font-size: 13px;    
+}
+
+.destaque a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #30dcf4;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+/*....texto novidades.....*/
+
+.novidades{
+    background-color: #082373;
+    padding: 50px;    
+}
+
+.novidades .text-body{
+    width: 80%;
+    margin: 70px auto;
+}
+
+.novidades h2{
+    color: #fff;
+    font-size: 26px;
+    width: 70%;
+}
+
+.novidades p{
+    color: #fff;
+}
+
+.novidades a{
+    color: #000;
+    text-decoration: none;
+    padding: 6px 12px;
+    background-color: #fff;
+    font-weight: 400;
+}
+
+/*....galeria full....*/
+
+.galeria{
+    margin: 60px auto 20px;
+}
+.galeria h2{
+    text-align: center;
+    font-size: 24px;
+}
+
+.galeria p{
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+}
+.galeria .gallery{    
+    /*margin: 10px auto 10px;*/
+    margin: 5px auto 10px;
+
+}
+.img-fluid{
+    max-width: 80%;
+}
+
+/*aula dia 27/10*/
+/*CSS Footer*/
+.rodape{
+    padding: 50px 50px 0px;
+}
+.rodape .info-contato p{
+    margin: 0px;
+}
+.rodape a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+.rodape a:hover{
+    font-weight: bold;
+}
+.rodape .redes-sociais{
+    display: inline-block;
+}
+.rodape .redes-sociais img{
+    width: 45px;
+    height: 40px;
+}
+.rodape p.direitos{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*CSS Formlário de Contato*/
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{    
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+#form-background{
+    background: #ff9b00;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+
+/*Inicio Aula 03-11-2021*/
+/*carrossel da página index*/
+.carrossel-1{
+    width: 80%;
+    margin: 50px auto;
+}
