@@ -1,0 +1,210 @@
+/*..RESETAR AS CONFIGURAÇÕES DO BODY..*/
+*{
+    margin: 0;
+    padding: 0;   
+    list-style: none; 
+    text-decoration: none;
+    box-sizing: border-box;    
+}
+body{
+    width: auto;
+    background-color: #030666;
+}
+
+
+
+/*..INÍCIO DO CABEÇALHO..*/
+header{    
+    position: fixed;
+    top: 0px;
+}
+#menu{
+    z-index: 1000;
+    background-color: #030666;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);/*..sombra..*/ 
+}
+.nav-item p{
+    color: white;
+}
+/*..logo..*/
+#logo{
+    width: 200px;/*..reduzir o tamanho do logo*/
+}
+/*..FIM DO CABEÇALHO..*/
+
+
+
+/*..INÍCIO DO CARROCEL..*/
+#carrosel-destaque{       
+    width: 80%;
+    margin: 120px auto 20px auto;    
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);/*..sombra..*/     
+}
+/*..FIM DO CARROCEL..*/
+
+
+/*..INÍCIO DA NOVIDADES..*/
+.novidades div h2{
+    text-align: center;
+    color: white;
+    font-size: 2.2em;
+    padding: 5%;
+}
+.novidades .container .row{
+    justify-content: space-between;
+}
+.novidades .container .col{  
+    width: 25%;       
+    margin: 20px;
+}
+.novidades .container .col img{
+    width: 100%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);/*..sombra..*/
+} 
+/*..FIM DA NOVIDADES..*/
+
+/*..INÍCIO DA GALERIA..*/
+.galeria h2{
+    text-align: center;
+    color: white;
+    font-size: 2.2em;
+    padding: 5%;
+}
+.galeria .container .row{
+    justify-content: space-between;
+}
+.galeria .container .col{  
+    width: 25%;       
+    margin: 20px;
+}
+.galeria .container .col img{
+    width: 100%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);/*..sombra..*/
+}
+/*..FIM DA GALERIA..*/
+
+
+/*..INICIO SOBRE..*/
+.banner-loja{
+    width: 45%;
+    margin: 120px auto 20px auto;
+    position: relative;    
+}
+.banner-loja img{
+    width: 100%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);/*..sombra..*/
+}
+.texto > h2, p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+/*..FIM SOBRE..*/
+
+
+
+/*..INICIO PRODUTOS..*/
+#produtos{
+    display: flex;
+    margin: 120px 5% 50px auto;
+}
+/*..FIM PRODUTOS..*/
+
+
+
+/*..INÍCIO DO RODAPÉ..*/
+footer{   
+    background: #030666; 
+    position: relative;      /*..por rodapé no final da página..*/
+    bottom: 0;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);/*..sombra..*/ 
+}
+.footer{    
+    width: 100%;      
+    margin: 10px;
+    display: flex;    
+    justify-content: space-between;        
+}
+.footer > div ul li{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: white;
+    text-align: center;
+}
+.footer > div h2{
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+}
+.logo-rodape > img{
+    margin-top: 30px;
+}
+/*..Responsividade..*/
+.footer > div{
+    flex: 1 1 100px;
+    max-width: 100%;
+    display: block;
+    margin: 10px;
+}
+/*..FIM DO RODAPÉ..*/
+
+
+
+
+
+
+/*..INÍCIO PÁGINA CONTATO..*/
+.contatos{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fundo{
+    background-color: #030666;
+}
+
+h5, p{
+    color: white;
+}
+
+.img-facebook{
+    width: 100px;
+}
+/*.. FIM PÁGINA CONTATO..*/
+
+/*..ICONES..*/
+.icone{
+    width: 25px;
+}
+
+/*.. INÍCIO PÁGINA LOGIN ..*/
+#login {
+    margin-top: 100px;
+    padding: 0;
+    background-color: #1d0575;
+    height: 100vh;
+  }
+  #login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+  #login .container #login-row #login-column #login-box #login-form .form-group .text-info p{
+      color: #030666;      
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link .text-info p{
+    color: #030666;      
+}
+#login .container #login-row #login-column #login-box #login-form .text-info p{
+    color: #030666;      
+}
+/*.. FIM PÁGINA LOGIN ..*/
