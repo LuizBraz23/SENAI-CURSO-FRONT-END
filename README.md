@@ -12,3 +12,6 @@ Curso "Programador Front End" Senai Sorocaba/Sp
 >>>> Para casa: Criar a página - Jogos.html e - Contato.contato <<<<
 obs: procurar por formulario contato em bootstrap (Bootstrap Contact Form)
     https://bootsnipp.com/snippets/qr1zR
+  
+  03 de dezembro de 2021:
+  Incluir projetos das aulas de angular.
