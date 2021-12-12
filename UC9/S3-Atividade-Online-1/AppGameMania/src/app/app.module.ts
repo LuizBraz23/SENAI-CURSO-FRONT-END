@@ -11,6 +11,12 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ContatoComponent } from './views/contato/contato.component';
+import { CarrosselComponent } from './shared/carrossel/carrossel.component';
+import { BannerComponent } from './shared/banner/banner.component';
+import { DestaqueComponent } from './shared/destaque/destaque.component';
+import { NovidadesComponent } from './shared/novidades/novidades.component';
+import { GaleriaComponent } from './shared/galeria/galeria.component';
+import { FormularioComponent } from './shared/formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { ContatoComponent } from './views/contato/contato.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    ContatoComponent
+    ContatoComponent,
+    CarrosselComponent,
+    BannerComponent,
+    DestaqueComponent,
+    NovidadesComponent,
+    GaleriaComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
