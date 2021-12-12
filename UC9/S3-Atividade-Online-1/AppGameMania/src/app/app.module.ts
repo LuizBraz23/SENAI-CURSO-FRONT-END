@@ -17,6 +17,7 @@ import { DestaqueComponent } from './shared/destaque/destaque.component';
 import { NovidadesComponent } from './shared/novidades/novidades.component';
 import { GaleriaComponent } from './shared/galeria/galeria.component';
 import { FormularioComponent } from './shared/formulario/formulario.component';
+import { JogosComponent } from './views/jogos/jogos.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FormularioComponent } from './shared/formulario/formulario.component';
     DestaqueComponent,
     NovidadesComponent,
     GaleriaComponent,
-    FormularioComponent
+    FormularioComponent,
+    JogosComponent
   ],
   imports: [
     BrowserModule,
