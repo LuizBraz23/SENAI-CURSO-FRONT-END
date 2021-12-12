@@ -1,0 +1,29 @@
+/*....texto novidades.....*/
+
+.novidades{
+    background-color: #082373;
+    padding: 50px;    
+}
+
+.novidades .text-body{
+    width: 80%;
+    margin: 70px auto;
+}
+
+.novidades h2{
+    color: #fff;
+    font-size: 26px;
+    width: 70%;
+}
+
+.novidades p{
+    color: #fff;
+}
+
+.novidades a{
+    color: #000;
+    text-decoration: none;
+    padding: 6px 12px;
+    background-color: #fff;
+    font-weight: 400;
+}
