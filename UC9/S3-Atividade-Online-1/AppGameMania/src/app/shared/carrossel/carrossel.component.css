@@ -1,0 +1,13 @@
+.carrossel-1{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 40px;    
+}
+
+@media (max-width:700px){
+    .carrossel-1{
+        width: 99%;
+        margin: 0px auto;
+        padding-top: 40px;
+    }
+}

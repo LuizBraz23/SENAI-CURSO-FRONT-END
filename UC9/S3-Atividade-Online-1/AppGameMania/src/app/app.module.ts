@@ -19,6 +19,7 @@ import { GaleriaComponent } from './shared/galeria/galeria.component';
 import { FormularioComponent } from './shared/formulario/formulario.component';
 import { JogosComponent } from './views/jogos/jogos.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -1,0 +1,40 @@
+/* Início Seção Banner */
+.section-banner-home .container-fluid{   
+    position: static;
+    display: flex;      
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    margin: 0px auto;
+    background-color: #082373;    
+}
+.section-banner-home img {
+    height: 120%;       
+}
+.section-banner-home .texto-banner {    
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 22px;
+}
+.section-banner-home .texto-banner h1 {    
+    font-size: 30px;
+    width: 60%;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: white;
+}
+.section-banner-home .texto-banner p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+.section-banner-home .texto-banner a {
+    color: black;
+    text-decoration: none;
+    background: #fff;
+    padding: 4px 14px;
+    font-size: 15px;
+}
+/* Fim Seção Banner */
+
+
