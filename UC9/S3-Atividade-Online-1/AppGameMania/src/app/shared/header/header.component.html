@@ -1,3 +1,4 @@
+
 <header id="header">
   <a id="logo" href="index.html"><img src="./assets/img/logo.png" alt="logo GameMania"></a>
   <nav id="nav">
@@ -5,11 +6,11 @@
           <span id="hamburguer"></span> 
       </button>
       <ul id="menu" role="menu">
-          <li><a class="linkMenu" routerLink="jogos">Jogos</a></li>
+          <li><a class="linkMenu" routerLink="/jogos" routerLinkActive="active">Jogos</a></li>
           <li><a class="linkMenu" routerLink="/">Hardware</a></li>
           <li><a class="linkMenu" routerLink="/">Celulares</a></li>
           <li><a class="linkMenu" routerLink="/">PC Gamer</a></li>
-          <li><a class="linkMenu" routerLink="contato">Contato</a></li>
+          <li><a class="linkMenu" [routerLink]="['/contato']">Contato</a></li>
           <li><a class="linkMenu" routerLink="/">Login</a></li>
       </ul>
   </nav>

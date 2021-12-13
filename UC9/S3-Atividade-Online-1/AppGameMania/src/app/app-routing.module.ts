@@ -5,18 +5,11 @@ import { HomeComponent } from './views/home/home.component';
 import { JogosComponent } from './views/jogos/jogos.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: HomeComponent
-  },
-  {
-    path:'contato',
-    component: ContatoComponent
-  },
-  {
-    path:'jogos',
-    component: JogosComponent
-  }
+  // quando não for passado nenhuma rota redirecione para 'home'
+  {path: '', redirectTo:'/home', pathMatch: 'full'},
+  {path: 'home', component: HomeComponent},
+  {path: 'contato', component: ContatoComponent},
+  {path: 'jogos',  component: JogosComponent}
 ];
 
 @NgModule({

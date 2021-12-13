@@ -21,6 +21,7 @@ import { JogosComponent } from './views/jogos/jogos.component';
 import { LancamentosComponent } from './shared/lancamentos/lancamentos.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,7 @@ import { LancamentosComponent } from './shared/lancamentos/lancamentos.component
     GaleriaComponent,
     FormularioComponent,
     JogosComponent,
-    LancamentosComponent
+    LancamentosComponent    
   ],
   imports: [
     BrowserModule,
@@ -43,7 +44,7 @@ import { LancamentosComponent } from './shared/lancamentos/lancamentos.component
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    NgbModule
+    NgbModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
